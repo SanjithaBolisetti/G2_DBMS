@@ -22,50 +22,46 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-```
-create table student(rollno int,name char(20),age int,addr varchar(20),phoneno int);
-```
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/025d6b30-8d3f-4a44-96fd-da6c0443e9d7)
+
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/490a6bfd-05f1-4789-8526-274d786999c9)
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/edc47576-f362-462b-8fe7-453cee1e6932)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-```
-alter table student add department char(30);
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/ae56851d-96b1-4406-bb29-de4aca4d2eee)
 
-```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/9ee913f2-a82f-4b3d-a2bb-d5f2254184d1)
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/12f1d397-52ef-4d6b-a50c-f531817dc568)
+
 
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-```
-drop table student;
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/e4c7ca9b-af7b-4dda-87d5-9219401cb8b0)
 
-```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/fbbd4d76-7f7f-4a96-876d-ea3f7688a81f)
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/35d12e9a-f712-4328-bbcd-d95fd66c3bbe)
+
 
 
 ### 4) Delete the student table using truncate keyword
 ### SQL QUERY: 
-```
-truncate table student;
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/23f806dc-3648-44fd-840c-d9494292bc6a)
 
-```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/a588479f-0b33-4e5a-88cd-e8b2e2069a77)
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/243e054d-0cab-475b-b139-db265c35fa9e)
+
 
 ### 5) Rename the student table to mystudent
 ### SQL QUERY: 
-```
-alter table student rename to mystudent;
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/9676d5b8-8271-4197-a006-3b12b2cb295c)
 
-```
 ### OUTPUT:
-![image](https://github.com/ARUNKUMART9968/G2_DBMS/assets/121215794/0c723764-5e0e-49ce-927b-b1fdd0a03f66)
+![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/531666d7-be37-46ec-bdbe-1c2dcc257cd1)
+
 
 ### RESULT:
-To create a student database and execute DDL queries using SQL is executed successfully.
+Creating a student database and execute DDL queries using SQL is executed successfully.
