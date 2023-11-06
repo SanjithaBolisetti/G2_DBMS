@@ -1,4 +1,5 @@
 # EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBMS
+Date:
 
 ## AIM:
 To create a student database and execute DDL queries using SQL.
@@ -22,7 +23,9 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/025d6b30-8d3f-4a44-96fd-da6c0443e9d7)
+```
+CREATE TABLE STUDENT(ROLLNO INT,NAME VARCHAR(20),AGE INT,ADDR VARCHAR(20),PHONENO INT);
+```
 
 ### OUTPUT:
 ![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/edc47576-f362-462b-8fe7-453cee1e6932)
@@ -31,7 +34,9 @@ RENAME: This is used to rename an object existing in the database.
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/ae56851d-96b1-4406-bb29-de4aca4d2eee)
+```
+ALTER TABLE STUDENT ADD DEPARTMENT VARCHAR(30);
+```
 
 ### OUTPUT:
 ![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/12f1d397-52ef-4d6b-a50c-f531817dc568)
@@ -40,7 +45,9 @@ RENAME: This is used to rename an object existing in the database.
 ### 3) Drop the student table
  
 ### SQL QUERY: 
-![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/e4c7ca9b-af7b-4dda-87d5-9219401cb8b0)
+```
+DROP TABLE STUDENT;
+```
 
 ### OUTPUT:
 ![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/35d12e9a-f712-4328-bbcd-d95fd66c3bbe)
@@ -49,7 +56,9 @@ RENAME: This is used to rename an object existing in the database.
 
 ### 4) Delete the student table using truncate keyword
 ### SQL QUERY: 
-![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/23f806dc-3648-44fd-840c-d9494292bc6a)
+```
+TRUNCATE TABLE STUDENT;
+```
 
 ### OUTPUT:
 ![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/243e054d-0cab-475b-b139-db265c35fa9e)
@@ -57,7 +66,9 @@ RENAME: This is used to rename an object existing in the database.
 
 ### 5) Rename the student table to mystudent
 ### SQL QUERY: 
-![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/9676d5b8-8271-4197-a006-3b12b2cb295c)
+```
+ALTER TABLE STUDENT RENAME TO MYSTUDENT;
+```
 
 ### OUTPUT:
 ![image](https://github.com/SanjithaBolisetti/G2_DBMS/assets/119393633/531666d7-be37-46ec-bdbe-1c2dcc257cd1)
